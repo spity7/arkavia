@@ -194,45 +194,45 @@ export const portfolios3 = [
     imgSrc: "/assets/images/demo-brutalist/portfolio/1.jpg",
     imgWidth: 700,
     imgHeight: 848,
-    title: "Medium Scene",
+    title: "Premium Log Selection",
     description:
-      "Take maximus ligula semper metus pellente mattis. Maecenas volutpat, diam enim. Lorem ipsum dolor sit amet adipiscing elit.",
+      "A look at our meticulous log-selection process, ensuring each timber meets Arkavia’s strict quality and sustainability standards.",
   },
   {
     id: 21,
     imgSrc: "/assets/images/demo-brutalist/portfolio/2.jpg",
     imgWidth: 848,
     imgHeight: 700,
-    title: "Rise of Design",
+    title: "Precision Milling",
     description:
-      "Maecenas volutpat, diam enim. Lorem ipsum dolor sit amet, cetere adipiscing elit. Maximus ligula semper metus pellentesque mattis.",
+      "State-of-the-art sawing technology delivering accurate cuts, consistent sizing, and exceptional surface finishes for every project.",
   },
   {
     id: 22,
     imgSrc: "/assets/images/demo-brutalist/portfolio/3.jpg",
     imgWidth: 700,
     imgHeight: 848,
-    title: "Visual Stranger",
+    title: "Kiln Drying Process",
     description:
-      "Curabitur iaculis accumsan augue, finibus mauris pretium eu. Duis placerat ex gravida nibh tristique porta nulla facilisi.",
+      "Controlled heat-treatment ensures stability, durability, and low moisture content—ideal for furniture, construction, and exports.",
   },
   {
     id: 23,
     imgSrc: "/assets/images/demo-brutalist/portfolio/4.jpg",
     imgWidth: 848,
     imgHeight: 700,
-    title: "Rise of Design",
+    title: "Custom Timber Profiles",
     description:
-      "Take maximus ligula semper metus pellente mattis. Maecenas volutpat, diam enim. Lorem ipsum dolor sit amet adipiscing elit.",
+      "From specialty cuts to large structural beams, we shape raw timber into products tailored to client specifications.",
   },
   {
     id: 24,
     imgSrc: "/assets/images/demo-brutalist/portfolio/5.jpg",
     imgWidth: 700,
     imgHeight: 848,
-    title: "Amplitude",
+    title: "Finished Lumber Output",
     description:
-      "Posuere felis id arcu blandit sagittis. Eleifeni vestibulum purus, sit amet vulputate risusece fusce aliquet quam eget neque.",
+      "Beautifully milled, fully processed lumber ready for distribution—crafted with consistency, care, and expert craftsmanship.",
   },
 ];
 

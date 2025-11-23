@@ -1,6 +1,7 @@
 import AnimatedText from "@/components/common/AnimatedText";
 import React from "react";
 import Image from "next/image";
+
 export default function Hero1() {
   return (
     <div className="container min-height-100vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-140">
@@ -15,7 +16,7 @@ export default function Hero1() {
                 data-rellax-vertical-scroll-axis="x"
                 data-rellax-horizontal-speed={7}
               >
-                <AnimatedText text="Awards winning" />
+                <AnimatedText text="Premium Woodcraft" />
               </span>
               <span
                 className="d-block text-end"
@@ -23,7 +24,7 @@ export default function Hero1() {
                 data-rellax-vertical-scroll-axis="x"
                 data-rellax-horizontal-speed={-5}
               >
-                <AnimatedText text="Creative Studio" />
+                <AnimatedText text="Sawmill Experts" />
               </span>
               <span
                 className="d-block"
@@ -31,7 +32,7 @@ export default function Hero1() {
                 data-rellax-vertical-scroll-axis="x"
                 data-rellax-horizontal-speed={3}
               >
-                <AnimatedText text="Based in Melburn" />
+                <AnimatedText text="Crafted by Arkavia" />
 
                 <span className="wow fadeIn" data-wow-delay="1.1s">
                   <Image
@@ -46,8 +47,8 @@ export default function Hero1() {
             </span>
           </h1>
           <p className="hs-paragraph-1 wow clipRightIn" data-wow-delay="1.1s">
-            Resonance is a full-service creative studio creating beautiful
-            digital experiences and products.
+            Arkavia is a dedicated wood sawmill company delivering high‑quality
+            lumber, precision cuts, and sustainable timber solutions.
           </p>
         </div>
       </div>

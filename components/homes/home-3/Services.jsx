@@ -3,6 +3,7 @@ import AnimatedText from "@/components/common/AnimatedText";
 import { services } from "@/data/services";
 import React, { useState } from "react";
 import Image from "next/image";
+
 export default function Services() {
   const [activeService, setActiveService] = useState(-1);
   return (

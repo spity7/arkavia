@@ -1,31 +1,31 @@
 export const services = [
   {
     number: "01",
-    title: "Branding",
+    title: "Custom Lumber Milling",
     image: "/assets/images/demo-brutalist/services/1.jpg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis urna ligula. Nam convallis nunc in felis mattis, a sollicitudin ligula molestie. Donec tincidunt eu lorem eget varius. Vestibulum ac efficitur ante. Aenean accumsan, justo vel placerat fermentum, elit neque lobortis velit, a varius nibh lorem in tellus.",
+      "Precision cutting and milling of hardwood and softwood logs using advanced sawmill technology. Ideal for construction, furniture making, and industrial applications.",
   },
   {
     number: "02",
-    title: "Web Design",
+    title: "Timber Drying & Treatment",
     image: "/assets/images/demo-brutalist/services/2.jpg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis urna ligula. Nam convallis nunc in felis mattis, a sollicitudin ligula molestie. Donec tincidunt eu lorem eget varius. Vestibulum ac efficitur ante. Aenean accumsan, justo vel placerat fermentum, elit neque lobortis velit, a varius nibh lorem in tellus.",
+      "Kiln drying and timber treatment services ensuring durability, stability, and long-lasting performance in all environmental conditions.",
   },
   {
     number: "03",
-    title: "Development",
+    title: "Custom Woodcraft & Profiling",
     image: "/assets/images/demo-brutalist/services/3.jpg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis urna ligula. Nam convallis nunc in felis mattis, a sollicitudin ligula molestie. Donec tincidunt eu lorem eget varius. Vestibulum ac efficitur ante. Aenean accumsan, justo vel placerat fermentum, elit neque lobortis velit, a varius nibh lorem in tellus.",
+      "Custom profiling, shaping, and finishing for builders, artisans, and manufacturers requiring precise wood components.",
   },
   {
     number: "04",
-    title: "Photography",
+    title: "Sustainable Timber Supply",
     image: "/assets/images/demo-brutalist/services/4.jpg",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis urna ligula. Nam convallis nunc in felis mattis, a sollicitudin ligula molestie. Donec tincidunt eu lorem eget varius. Vestibulum ac efficitur ante. Aenean accumsan, justo vel placerat fermentum, elit neque lobortis velit, a varius nibh lorem in tellus.",
+      "Responsibly sourced timber from certified forests, supporting eco-friendly construction and long-term environmental balance.",
   },
 ];
 

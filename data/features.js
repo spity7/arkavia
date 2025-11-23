@@ -61,14 +61,14 @@ export const featureItems2 = [
 ];
 
 export const qualities = [
-  "We're Creative",
-  "We're Punctual",
-  "We're Friendly",
-  "We're Professional",
-  "We're Witty",
-  "We're Honest",
-  "We're Smart",
-  "We're Resonance",
+  "Sustainably Sourced Timber",
+  "Precision Cutting",
+  "Reliable Delivery",
+  "Industry-Grade Quality",
+  "Expert Craftsmanship",
+  "Advanced Milling Technology",
+  "Customer-Focused Service",
+  "Trusted by Professionals",
 ];
 
 export const features = [

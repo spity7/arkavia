@@ -1,86 +1,42 @@
-import Hero from "@/components/preview/Hero";
+import Footer3 from "@/components/footers/Footer3";
+import Header3 from "@/components/headers/Header3";
+import Home3 from "@/components/homes/home-3";
+import Hero1 from "@/components/homes/home-3/heros/Hero1";
+import { brutalistMultipage } from "@/data/menu";
+import dynamic from "next/dynamic";
 import ParallaxContainer from "@/components/common/ParallaxContainer";
-import Showcase from "@/components/preview/Showcase";
-import Multipage from "@/components/preview/Multipage";
-import Onepage from "@/components/preview/Onepage";
-import Intro from "@/components/preview/Intro";
-import Testomonials from "@/components/preview/Testomonials";
-import FooterPreview from "@/components/footers/FooterPreview";
-import HeaderPreview from "@/components/headers/HeaderPreview";
 
 export const metadata = {
-  title:
-    "Preview Page || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Arkavia — Premium Wood Sawmill & Lumber Solutions",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Arkavia is a wood sawmill company delivering high‑quality lumber, precision cuts, and sustainable timber solutions.",
 };
 
-export default function Home() {
+export default function Home3MainDemoMultiPage() {
   return (
     <>
-      <div className="theme-main">
+      <div className="theme-brutalist">
         <div className="page" id="top">
-          {/* Navigation Panel */}
-          <nav className="main-nav transparent stick-fixed wow-menubar">
-            <HeaderPreview />
+          <nav className="main-nav dark transparent stick-fixed wow-menubar">
+            <Header3 links={brutalistMultipage} />
           </nav>
-          {/* End Navigation Panel */}
           <main id="main">
-            {/* Home Section */}
             <ParallaxContainer
-              className="home-section bg-gray-light-1 bg-light-alpha-90 parallax-5 parallax-mousemove-scene scrollSpysection"
+              className="home-section parallax-5 light-content scrollSpysection"
               style={{
                 backgroundImage:
-                  "url(/assets/images/full-width-images/section-bg-1.jpg)",
+                  "url(/assets/images/demo-brutalist/section-bg-1.jpg)",
               }}
               id="home"
             >
-              <Hero />
+              <Hero1 />
             </ParallaxContainer>
-            {/* End Home Section */}
-            {/* Showcases Section */}
-            <section className="full-wrapper mt-n90">
-              <Showcase />
-            </section>
-            {/* End Showcases Section */}
-            {/* Multi Page Demos Section */}
-            <section className="page-section overflow-hidden" id="multi-page">
-              <Multipage />
-            </section>
-            {/* End Multi Page Demos Section */}
-            {/* Divider */}
-            <hr className="mt-0 mb-0" />
-            {/* End Divider */}
-            {/* One Page Demos Section */}
-            <section className="page-section overflow-hidden" id="one-page">
-              <Onepage />
-            </section>
-            {/* End One Page Demos Section */}
-            {/* Divider */}
-            <hr className="mt-0 mb-0" />
-            {/* End Divider */}
-            {/* Intro Sections Demos Section */}
-            <section
-              className="page-section overflow-hidden"
-              id="intro-sections"
-            >
-              <Intro />
-            </section>
-            {/* End Intro Sections Demos Section */}
-            {/* Divider */}
-            <hr className="mt-0 mb-0" />
-            {/* End Divider */}
-            {/* Testimonials Section */}
-            <section className="page-section">
-              <Testomonials />
-            </section>
-            {/* End Testimonials Section */}
+
+            <Home3 />
           </main>
-          {/* Footer */}
-          <footer className="page-section footer bg-gray-light-1 pb-30">
-            <FooterPreview />
+          <footer className="page-section footer-1 bg-dark-1 light-content">
+            <Footer3 />
           </footer>
-          {/* End Footer */}
         </div>
       </div>
     </>
