@@ -9,12 +9,13 @@ import { brutalistMultipage } from "@/data/menu";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import ParallaxContainer from "@/components/common/ParallaxContainer";
+
 export const metadata = {
-  title:
-    "Brutalist Services || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Arkavia — Premium Wood Sawmill & Lumber Solutions",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Arkavia is a wood sawmill company delivering high‑quality lumber, precision cuts, and sustainable timber solutions.",
 };
+
 export default function BrutalistServicesPage() {
   return (
     <>
@@ -65,20 +66,24 @@ export default function BrutalistServicesPage() {
                   <div className="col-lg-5 mb-md-40">
                     <p className="section-descr-large mb-0">
                       We use the{" "}
-                      <span className="mark-decoration-2">power of design</span>{" "}
-                      to solve complex problems and cultivate business
-                      solutions.
+                      <span className="mark-decoration-2">
+                        strength of craftsmanship
+                      </span>{" "}
+                      and modern technology to deliver high-quality timber
+                      products with precision and reliability.
                     </p>
                   </div>
 
                   <div className="col-lg-7">
                     <p className="mb-0">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nunc semper aliquam est, a egestas ex vestibulum ac.
-                      Curabitur cursus sem vitae arcu placerat cursus. Aenean
-                      condimentum, justo eu cursus commodo, dolor mauris porta
-                      nisi, vitae placerat diam dolor vel urna. In iaculis
-                      placerat est pharetra dignissim.
+                      At Arkavia, every piece of wood is processed with care,
+                      accuracy, and respect for the material. Our production
+                      methods combine long-standing expertise with advanced
+                      sawmilling equipment to ensure consistent quality, minimal
+                      waste, and dependable results for builders, manufacturers,
+                      and partners across industries. We’re committed to
+                      delivering timber solutions that meet the highest
+                      standards—every time.
                     </p>
                   </div>
                 </div>

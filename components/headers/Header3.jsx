@@ -14,7 +14,7 @@ export default function Header3({ links }) {
       <div className="nav-logo-wrap local-scroll">
         <a href="#top" className="logo font-alt">
           <Image
-            src="/assets/images/demo-brutalist/logo-white.svg"
+            src="/assets/images/demo-brutalist/ARKAVIA LOGO.png"
             alt="Your Company Logo"
             width={170}
             height={12}

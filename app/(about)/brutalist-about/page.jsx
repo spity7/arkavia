@@ -10,12 +10,13 @@ import { brutalistMultipage } from "@/data/menu";
 
 import Image from "next/image";
 import ParallaxContainer from "@/components/common/ParallaxContainer";
+
 export const metadata = {
-  title:
-    "Brutalist About || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Arkavia — Premium Wood Sawmill & Lumber Solutions",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Arkavia is a wood sawmill company delivering high‑quality lumber, precision cuts, and sustainable timber solutions.",
 };
+
 export default function BrutalistAboutPage() {
   return (
     <>
@@ -36,7 +37,7 @@ export default function BrutalistAboutPage() {
               <div className="container position-relative pt-20 pt-sm-40">
                 <h1 className="hs-title-2 font-alt uppercase mb-0">
                   <span className="wow charsAnimIn" data-splitting="chars">
-                    <AnimatedText text="About Studio" />
+                    <AnimatedText text="About Arkavia" />
                   </span>
                   <span
                     className="section-title-image wow fadeScaleIn"
@@ -65,10 +66,11 @@ export default function BrutalistAboutPage() {
                       className="section-descr-large mb-60 mb-sm-40 wow fadeInUp"
                       data-wow-delay="0.1s"
                     >
-                      Resonance is a full-service creative studio creating
-                      beautiful digital experiences and products. We are an
-                      award winning studio specializing in branding, design and
-                      engineering. Our mission is to make work meaningful.
+                      Arkavia is a dedicated wood sawmill company focused on
+                      delivering high-quality lumber, precision-cut timber, and
+                      sustainable wood products. With decades of craftsmanship
+                      behind us, we serve builders, manufacturers, and artisans
+                      who rely on durable, responsibly sourced materials.
                     </p>
                     <ul
                       className="section-features font-alt clearlist uppercase wow fadeInUp"
@@ -89,7 +91,7 @@ export default function BrutalistAboutPage() {
                 >
                   <div className="col-5 offset-7 col-sm-4 offset-sm-8">
                     <Image
-                      src="/assets/images/demo-brutalist/section-image-1.jpg"
+                      src="/assets/images/demo-brutalist/Sawmill.jpg"
                       width={689}
                       height={855}
                       className="section-image-1"

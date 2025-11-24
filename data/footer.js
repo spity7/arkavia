@@ -13,21 +13,25 @@ export const footerLinks2 = [
 
 export const socialLinks = [
   {
-    href: "#",
+    href: "https://www.instagram.com/arkavia.ci?igsh=MWQyMzNpb2VtOHppeA==",
     text: "Instagram",
   },
   {
-    href: "#",
+    href: "https://www.facebook.com/share/16QHdKzqUn/?mibextid=wwXIfr",
     text: "Facebook",
   },
   {
-    href: "#",
-    text: "YouTube",
+    href: "https://wa.me/2250710121212",
+    text: "Whatsapp",
   },
-  {
-    href: "#",
-    text: "LinkedIn",
-  },
+  // {
+  //   href: "#",
+  //   text: "YouTube",
+  // },
+  // {
+  //   href: "#",
+  //   text: "LinkedIn",
+  // },
 ];
 
 export const socialMediaLinks = [

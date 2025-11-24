@@ -16,7 +16,10 @@ export default function Portfolio() {
             >
               <div className="col-md-5 mb-sm-30">
                 <div className="portfolio-1-image">
-                  <Link href={`/brutalist-portfolio-single/${elm.id}`}>
+                  <Link
+                    // href={`/brutalist-portfolio-single/${elm.id}`}
+                    href="#"
+                  >
                     <Image
                       src={elm.imgSrc}
                       loading="lazy"
@@ -30,7 +33,10 @@ export default function Portfolio() {
               <div className="col-md-7 d-flex align-items-center">
                 <div>
                   <h3 className="portfolio-1-title font-alt mb-20">
-                    <Link href={`/brutalist-portfolio-single/${elm.id}`}>
+                    <Link
+                      // href={`/brutalist-portfolio-single/${elm.id}`}
+                      href="#"
+                    >
                       {elm.title}
                     </Link>
                   </h3>
@@ -42,7 +48,8 @@ export default function Portfolio() {
                     </div>
                     <div>
                       <Link
-                        href={`/brutalist-portfolio-single/${elm.id}`}
+                        // href={`/brutalist-portfolio-single/${elm.id}`}
+                        href="#"
                         className="link-hover-anim link-circle align-middle"
                         data-link-animate="y"
                       >
@@ -77,7 +84,10 @@ export default function Portfolio() {
               <div className="col-md-6 d-flex align-items-center">
                 <div>
                   <h3 className="portfolio-1-title font-alt mb-20 ms-0">
-                    <Link href={`/brutalist-portfolio-single/${elm.id}`}>
+                    <Link
+                      // href={`/brutalist-portfolio-single/${elm.id}`}
+                      href="#"
+                    >
                       {elm.title}
                     </Link>
                   </h3>
@@ -88,7 +98,8 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <Link
-                      href={`/brutalist-portfolio-single/${elm.id}`}
+                      // href={`/brutalist-portfolio-single/${elm.id}`}
+                      href="#"
                       className="link-hover-anim link-circle align-middle"
                       data-link-animate="y"
                     >
@@ -115,7 +126,10 @@ export default function Portfolio() {
               </div>
               <div className="col-md-6 order-first order-md-last mb-sm-30">
                 <div className="portfolio-1-image">
-                  <Link href={`/brutalist-portfolio-single/${elm.id}`}>
+                  <Link
+                    // href={`/brutalist-portfolio-single/${elm.id}`}
+                    href="#"
+                  >
                     <Image
                       src={elm.imgSrc}
                       loading="lazy"

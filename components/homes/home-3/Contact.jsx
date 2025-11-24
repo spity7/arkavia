@@ -10,7 +10,13 @@ export default function Contact() {
             <div className="contact-1-text">+225 07 10 12 12 12</div>
             <div className="contact-1-link">
               {/* Change the phone number in the "href" attribute */}
-              <a href="tel:+18376528800">Call now</a>
+              <a
+                href="https://wa.me/2250710121212"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Call now
+              </a>
             </div>
           </div>
           <hr className="contact-1-line mt-0 mb-0" />
@@ -19,9 +25,9 @@ export default function Contact() {
             <div className="contact-1-text mb-10">
               Abidjan, koumassi 05, Rue Morya
             </div>
-            <div className="contact-1-link">
+            {/* <div className="contact-1-link">
               <a href="#">See map</a>
-            </div>
+            </div> */}
           </div>
           <hr className="contact-1-line mt-0 mb-0" />
           <div className="p-4 p-md-5">
@@ -31,7 +37,7 @@ export default function Contact() {
             </div>
             <div className="contact-1-link">
               {/* Change the email address in the "href" attribute */}
-              <a href="mailto:ibthemes21@gmail.com">Say hello</a>
+              <a href="#">Say hello</a>
             </div>
           </div>
         </div>

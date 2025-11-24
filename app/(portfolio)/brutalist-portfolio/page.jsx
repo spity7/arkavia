@@ -10,12 +10,13 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import ParallaxContainer from "@/components/common/ParallaxContainer";
+
 export const metadata = {
-  title:
-    "Brutalist Portfolio || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Arkavia — Premium Wood Sawmill & Lumber Solutions",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Arkavia is a wood sawmill company delivering high‑quality lumber, precision cuts, and sustainable timber solutions.",
 };
+
 export default function BrutalistPortfolioPage() {
   return (
     <>
@@ -36,7 +37,7 @@ export default function BrutalistPortfolioPage() {
               <div className="container position-relative pt-20 pt-sm-40">
                 <h1 className="hs-title-2 font-alt uppercase mb-0">
                   <span className="wow charsAnimIn" data-splitting="chars">
-                    <AnimatedText text="SELECTED WORKS" />
+                    <AnimatedText text="SELECTED PROJECTS" />
                   </span>
                   <span
                     className="section-title-image wow fadeScaleIn"
@@ -62,10 +63,13 @@ export default function BrutalistPortfolioPage() {
                 <div className="row mb-100 mb-md-80 mb-sm-40">
                   <div className="col-md-8 col-lg-9 mb-sm-30">
                     <p className="section-descr-large mb-0 wow fadeInUp">
-                      We believe in making{" "}
-                      <span className="mark-decoration-2">the best work</span>,
-                      and being the best to work with. We help brands &amp;
-                      businesses stand out in the changing digital landscape.
+                      We believe in delivering{" "}
+                      <span className="mark-decoration-2">
+                        the highest quality timber
+                      </span>{" "}
+                      and providing a partnership you can rely on. Our work
+                      supports builders, craftsmen, and businesses who depend on
+                      precision and durability every day.
                     </p>
                   </div>
                   <div className="col-md-4 col-lg-3 text-end pt-20 pt-md-10 pt-sm-0 local-scroll">

@@ -181,11 +181,11 @@ export const corporateOnepage = [
 ];
 
 export const brutalistMultipage = [
-  { href: "/brutalist-multi-page", text: "Home", active: true },
+  { href: "/", text: "Home", active: true },
   { href: "/brutalist-about", text: "About", active: false },
   { href: "/brutalist-services", text: "Services", active: false },
-  { href: "/brutalist-portfolio", text: "Portfolio", active: false },
-  { href: "/brutalist-blog", text: "Blog", active: false },
+  { href: "/brutalist-portfolio", text: "Projects", active: false },
+  // { href: "/brutalist-blog", text: "Blog", active: false },
 ];
 export const brutalistMultipageDark = [
   { href: "/brutalist-multi-page-dark", text: "Home", active: true },

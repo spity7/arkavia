@@ -13,12 +13,13 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import ParallaxContainer from "@/components/common/ParallaxContainer";
+
 export const metadata = {
-  title:
-    "Brutalist Contact || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Arkavia — Premium Wood Sawmill & Lumber Solutions",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Arkavia is a wood sawmill company delivering high‑quality lumber, precision cuts, and sustainable timber solutions.",
 };
+
 export default function BrutalistContactPage() {
   return (
     <>
@@ -68,20 +69,20 @@ export default function BrutalistContactPage() {
                 >
                   <div className="col-lg-5 mb-md-40">
                     <p className="section-descr-large mb-0">
-                      We’re open to talk to
-                      <span className="mark-decoration-2">good people</span>.
-                      Say hello and we’ll start a productive cooperation.
+                      We’re always ready to connect with{" "}
+                      <span className="mark-decoration-2">good partners</span>.
+                      Reach out and let’s build something strong together.
                     </p>
                   </div>
 
                   <div className="col-lg-7">
                     <p className="mb-0">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nunc semper aliquam est, a egestas ex vestibulum ac.
-                      Curabitur cursus sem vitae arcu placerat cursus. Aenean
-                      condimentum, justo eu cursus commodo, dolor mauris porta
-                      nisi, vitae placerat diam dolor vel urna. In iaculis
-                      placerat est pharetra dignissim.
+                      From timber sourcing to precision milling, our team is
+                      committed to providing dependable quality and clear
+                      communication at every step. Whether you’re a builder,
+                      distributor, or craftsman, we work closely with you to
+                      deliver solutions tailored to your needs—efficient,
+                      consistent, and built to last.
                     </p>
                   </div>
                 </div>

@@ -34,7 +34,7 @@ export default function Hero1() {
               >
                 <AnimatedText text="Crafted by Arkavia" />
 
-                <span className="wow fadeIn" data-wow-delay="1.1s">
+                {/* <span className="wow fadeIn" data-wow-delay="1.1s">
                   <Image
                     width={89}
                     height={88}
@@ -42,7 +42,7 @@ export default function Hero1() {
                     className="hs-image-1"
                     alt="Image Description"
                   />
-                </span>
+                </span> */}
               </span>
             </span>
           </h1>
@@ -72,15 +72,23 @@ export default function Hero1() {
       {/* End Scroll Down */}
       {/* Social Media Links */}
       <div className="hs-social wow fadeInUp" data-wow-offset={0}>
-        <a href="#" className="hs-social-link">
+        <a
+          href="https://www.instagram.com/arkavia.ci?igsh=MWQyMzNpb2VtOHppeA=="
+          className="hs-social-link"
+          target="_blank"
+        >
           <div className="visually-hidden">Instagram</div>
           <i className="fa-instagram" />
         </a>
-        <a href="#" className="hs-social-link">
+        {/* <a href="#" className="hs-social-link">
           <div className="visually-hidden">Twitter</div>
           <i className="fa-twitter" />
-        </a>
-        <a href="#" className="hs-social-link">
+        </a> */}
+        <a
+          href="https://www.facebook.com/share/16QHdKzqUn/?mibextid=wwXIfr"
+          className="hs-social-link"
+          target="_blank"
+        >
           <div className="visually-hidden">Facebook</div>
           <i className="fa-facebook-f" />
         </a>

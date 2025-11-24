@@ -58,7 +58,7 @@ export default function Home3({ onePage = false, dark = false }) {
           >
             <div className="col-5 offset-7 col-sm-4 offset-sm-8">
               <Image
-                src="/assets/images/demo-brutalist/section-image-1.jpg"
+                src="/assets/images/demo-brutalist/Sawmill.jpg"
                 width={689}
                 height={855}
                 className="section-image-1"
