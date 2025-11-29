@@ -36,7 +36,7 @@ export default function BrutalistServicesPage() {
               <div className="container position-relative pt-20 pt-sm-40">
                 <h1 className="hs-title-2 font-alt uppercase mb-0">
                   <span className="wow charsAnimIn" data-splitting="chars">
-                    <AnimatedText text="OUR SERVICES" />
+                    <AnimatedText text="Nos Services" />
                   </span>
                   <span
                     className="section-title-image wow fadeScaleIn"
@@ -65,25 +65,20 @@ export default function BrutalistServicesPage() {
                 >
                   <div className="col-lg-5 mb-md-40">
                     <p className="section-descr-large mb-0">
-                      We use the{" "}
+                      Chez Arkavia, chaque projet est une{" "}
                       <span className="mark-decoration-2">
-                        strength of craftsmanship
+                        collaboration pensée
                       </span>{" "}
-                      and modern technology to deliver high-quality timber
-                      products with precision and reliability.
+                      pour donner vie à votre vision.
                     </p>
                   </div>
 
                   <div className="col-lg-7">
                     <p className="mb-0">
-                      At Arkavia, every piece of wood is processed with care,
-                      accuracy, and respect for the material. Our production
-                      methods combine long-standing expertise with advanced
-                      sawmilling equipment to ensure consistent quality, minimal
-                      waste, and dependable results for builders, manufacturers,
-                      and partners across industries. We’re committed to
-                      delivering timber solutions that meet the highest
-                      standards—every time.
+                      Chez Arkavia, chaque projet est une collaboration. Nous
+                      écoutons, concevons, réalisons et livrons avec engagement,
+                      précision et passion—garantissant des résultats qui
+                      reflètent véritablement la vision de nos clients.
                     </p>
                   </div>
                 </div>

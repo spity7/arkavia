@@ -37,7 +37,7 @@ export default function BrutalistAboutPage() {
               <div className="container position-relative pt-20 pt-sm-40">
                 <h1 className="hs-title-2 font-alt uppercase mb-0">
                   <span className="wow charsAnimIn" data-splitting="chars">
-                    <AnimatedText text="About Arkavia" />
+                    <AnimatedText text="À propos d’Arkavia" />
                   </span>
                   <span
                     className="section-title-image wow fadeScaleIn"
@@ -66,11 +66,22 @@ export default function BrutalistAboutPage() {
                       className="section-descr-large mb-60 mb-sm-40 wow fadeInUp"
                       data-wow-delay="0.1s"
                     >
-                      Arkavia is a dedicated wood sawmill company focused on
-                      delivering high-quality lumber, precision-cut timber, and
-                      sustainable wood products. With decades of craftsmanship
-                      behind us, we serve builders, manufacturers, and artisans
-                      who rely on durable, responsibly sourced materials.
+                      Chez Arkavia, le design rencontre l’artisanat. Nous créons
+                      des espaces qui allient vision esthétique et précision
+                      d’un savoir-faire qualifié, livrant des projets où chaque
+                      détail est soigneusement pensé.
+                    </p>
+                    <p
+                      className="section-descr-large mb-60 mb-sm-40 wow fadeInUp"
+                      data-wow-delay="0.1s"
+                    >
+                      Grâce à notre solide expertise en menuiserie, Arkavia se
+                      distingue par sa capacité à transformer les matières
+                      brutes en créations raffinées, durables et magnifiquement
+                      exécutées. Du mobilier sur mesure aux aménagements
+                      intérieurs complets, notre travail du bois combine
+                      techniques modernes et artisanat authentique—faisant de
+                      chaque pièce une création unique et durable.
                     </p>
                     <ul
                       className="section-features font-alt clearlist uppercase wow fadeInUp"

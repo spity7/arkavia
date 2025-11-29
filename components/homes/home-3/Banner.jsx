@@ -9,7 +9,7 @@ export default function Banner() {
         <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <h2 className="section-title-medium font-alt uppercase text-center mb-10">
             <span className="wow charsAnimInLong" data-splitting="chars">
-              <AnimatedText text="Crafting Quality Timber Since 2010" />
+              <AnimatedText text="Crafting Quality Timber With Care" />
             </span>
           </h2>
           <p

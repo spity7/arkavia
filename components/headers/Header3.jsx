@@ -16,7 +16,7 @@ export default function Header3({ links }) {
           <Image
             src="/assets/images/demo-brutalist/ARKAVIA LOGO.png"
             alt="Your Company Logo"
-            width={170}
+            width={147}
             height={12}
           />
         </a>

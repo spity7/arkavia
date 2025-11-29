@@ -26,18 +26,29 @@ export default function Home3({ onePage = false, dark = false }) {
             <div className="col-sm-9">
               <h2 className="section-title-large font-alt uppercase mb-60 mb-md-50 mb-sm-30">
                 <span className="wow charsAnimInLong" data-splitting="chars">
-                  <AnimatedText text="About Arkavia" />
+                  <AnimatedText text="À propos d’Arkavia" />
                 </span>
               </h2>
               <p
                 className="section-descr-large mb-60 mb-sm-40 wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                Arkavia is a dedicated wood sawmill company focused on
-                delivering high-quality lumber, precision-cut timber, and
-                sustainable wood products. With decades of craftsmanship behind
-                us, we serve builders, manufacturers, and artisans who rely on
-                durable, responsibly sourced materials.
+                Chez Arkavia, le design rencontre l’artisanat. Nous créons des
+                espaces qui allient vision esthétique et précision d’un
+                savoir-faire qualifié, livrant des projets où chaque détail est
+                soigneusement pensé.
+              </p>
+              <p
+                className="section-descr-large mb-60 mb-sm-40 wow fadeInUp"
+                data-wow-delay="0.1s"
+              >
+                Grâce à notre solide expertise en menuiserie, Arkavia se
+                distingue par sa capacité à transformer les matières brutes en
+                créations raffinées, durables et magnifiquement exécutées. Du
+                mobilier sur mesure aux aménagements intérieurs complets, notre
+                travail du bois combine techniques modernes et artisanat
+                authentique—faisant de chaque pièce une création unique et
+                durable.
               </p>
               <ul
                 className="section-features font-alt clearlist uppercase wow fadeInUp"
@@ -95,10 +106,11 @@ export default function Home3({ onePage = false, dark = false }) {
             </div>
             <div className="col-md-7">
               <p className="section-descr-large mb-0 wow fadeInUp">
-                At Arkavia, we provide high‑quality lumber processing solutions
-                using
-                <span className="mark-decoration-2"> precision milling</span>,
-                sustainable sourcing, and advanced wood treatment methods.
+                Chez Arkavia, chaque projet est une collaboration. Nous
+                écoutons, concevons, réalisons et livrons avecy{" "}
+                <span className="mark-decoration-2"> engagement</span>,
+                précision et passion—garantissant des résultats qui reflètent
+                véritablement la vision de nos clients.
               </p>
             </div>
           </div>

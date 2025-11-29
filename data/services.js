@@ -1,28 +1,35 @@
 export const services = [
   {
     number: "01",
-    title: "Custom Lumber Milling",
+    title: "Supervision & Exécution",
     image: "/assets/images/demo-brutalist/services/1.jpg",
     description:
       "Precision cutting and milling of hardwood and softwood logs using advanced sawmill technology. Ideal for construction, furniture making, and industrial applications.",
   },
   {
     number: "02",
-    title: "Timber Drying & Treatment",
+    title: "Menuiserie sur mesure",
     image: "/assets/images/demo-brutalist/services/2.jpg",
     description:
       "Kiln drying and timber treatment services ensuring durability, stability, and long-lasting performance in all environmental conditions.",
   },
   {
     number: "03",
-    title: "Custom Woodcraft & Profiling",
+    title: "Solutions techniques modernes",
     image: "/assets/images/demo-brutalist/services/3.jpg",
     description:
       "Custom profiling, shaping, and finishing for builders, artisans, and manufacturers requiring precise wood components.",
   },
   {
     number: "04",
-    title: "Sustainable Timber Supply",
+    title: "Décoration intérieure • Menuiserie",
+    image: "/assets/images/demo-brutalist/services/4.jpg",
+    description:
+      "Responsibly sourced timber from certified forests, supporting eco-friendly construction and long-term environmental balance.",
+  },
+  {
+    number: "05",
+    title: "Créer. Rénover. Inspirer.",
     image: "/assets/images/demo-brutalist/services/4.jpg",
     description:
       "Responsibly sourced timber from certified forests, supporting eco-friendly construction and long-term environmental balance.",
