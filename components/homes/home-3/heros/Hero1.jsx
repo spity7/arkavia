@@ -47,8 +47,9 @@ export default function Hero1() {
             </span>
           </h1>
           <p className="hs-paragraph-1 wow clipRightIn" data-wow-delay="1.1s">
-            Arkavia is a dedicated wood sawmill company delivering high‑quality
-            lumber, precision cuts, and sustainable timber solutions.
+            Arkavia est une scierie spécialisée dans la fourniture de bois de
+            haute qualité, de coupes précises et de solutions durables en
+            matière de gestion du bois.
           </p>
         </div>
       </div>

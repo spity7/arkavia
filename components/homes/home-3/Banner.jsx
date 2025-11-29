@@ -9,15 +9,15 @@ export default function Banner() {
         <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
           <h2 className="section-title-medium font-alt uppercase text-center mb-10">
             <span className="wow charsAnimInLong" data-splitting="chars">
-              <AnimatedText text="Crafting Quality Timber With Care" />
+              <AnimatedText text="Travail du bois de qualité avec soin" />
             </span>
           </h2>
           <p
             className="section-title-descr font-alt text-center wow fadeInUp"
             data-wow-delay="0.1s"
           >
-            At Arkavia, we believe wood should be strong, sustainable, and
-            beautifully crafted.{" "}
+            Chez Arkavia, nous pensons que le bois doit être solide, durable et
+            magnifiquement travaillé.{" "}
           </p>
           <Image
             src="/assets/images/demo-brutalist/Wood-Mizer-launches-High-Production-WM2500-Industrial-Sawmill.jpg"
